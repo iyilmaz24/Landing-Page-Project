@@ -1,3 +1,7 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 .header {
     display: flex;
@@ -5,11 +9,10 @@
     background-color: #1f2937;
     font-size: 24px;
     color: #f9faf8;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     height: 60px;
     align-items: center;
-    padding: 10px;
 }
 
 a {
@@ -24,5 +27,55 @@ a {
 .header-links {
     display: flex;
     gap: 30px;
+}
+
+.featured-content {
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.left-side-featured {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button-style {
+    color: #f9faf8; 
+    width: min-content;
+    min-width: 100px;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+}
+
+.featured-img {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
 }
 
